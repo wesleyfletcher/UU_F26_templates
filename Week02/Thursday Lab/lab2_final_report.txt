@@ -1,0 +1,39 @@
+## Final Report
+
+State which similarity measure you would recommend Spotify use
+for this lyric-only prototype, justify your choice with results
+from your analysis, and discuss at least two concrete examples
+from the rankings. Briefly note one important limitation of lyric
+word counts alone and name information that could make a real recommendation system better.
+
+
+tfidf        0.210119
+raw cos      0.191071
+my system    0.189881
+raw dot      0.092857
+
+
+- Best model:
+
+Our results suggest that the TF-IDF cosine model is the most accurate for lyric-only data.
+It is the only one of our models to cross 20% accuracy, which is not great, but is the best
+when only using lyrics. For our example query song, the TF-IDF cosine model has the best diversity
+of songs that are not based on purely maximizing word count. The dot product models both heavily
+favor songs with high word totals, which gives an inaccurate idea of similar songs. The TF-IDF cosine
+model does a better job of picking out songs with similar lyrics.
+
+- My prototype:
+
+My system was made to try to combine elements from the raw word counts and the TF-IDF system.
+My idea was that when the dot product is taken between two TF-IDF vectors, it squares the values.
+I thought this might favor the rarest words disproportionately, so I decided to instead take the
+cosine similarity of a TF-IDF vector and a regular words vector. Ultimately, this yielded similar
+but slightly worse results than the other cosine models. It was able to outperform the raw dot product method.
+
+- Lyric recommendation limitations:
+
+It is very difficult to form a good recommendation system using only the song lyrics. As humans, we mostly group
+songs by the way the sound, and what instruments they use. These models could be made better with audio data, or at
+least a list of instruments used. Another realistic way to make a recommendation is to use real-world user data, and
+see what songs have similar listener groups. This system would not need any information on the music itself, only
+what songs listeners tend to select as well.
