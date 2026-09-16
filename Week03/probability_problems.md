@@ -4,7 +4,7 @@
 
 We are gambling. You roll one six-sided die.
 
-- if 1 or 2 or 4 is rolled, you win $\$0$,
+- if 1 or 2 or 3 is rolled, you win $\$0$,
 - if 4 or 5 is rolled, you win $\$3$,
 - if a 6 is rolled, you lose $\$-7$.
 
