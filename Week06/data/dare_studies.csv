@@ -1,0 +1,12 @@
+study,year,n,d,ci_low,ci_high,followup,assumed_zero
+Ringwalt et al.,1991,1270,0.056,-0.06,0.16,immediate,False
+Becker et al.,1992,2878,-0.117,-0.19,-0.04,immediate,False
+Harmon,1993,708,0.030,-0.12,0.18,immediate,False
+Ennett et al.,1994,1334,0.000,-0.11,0.11,2 years,True
+Rosenbaum et al.,1994,1584,0.000,-0.10,0.10,1 year,True
+Wysong et al.,1994,619,0.000,-0.16,0.16,5 years,True
+Dukes et al.,1996,849,0.072,-0.06,0.21,3 years,False
+Zagumny & Thompson,1997,395,0.376,0.07,0.68,4-5 years,False
+Lynam et al.,1999,1002,0.000,-0.15,0.15,10 years,True
+Thombs,2000,630,0.038,-0.15,0.23,1-6 years,False
+Ahmed et al.,2002,236,0.405,0.01,0.80,immediate,False

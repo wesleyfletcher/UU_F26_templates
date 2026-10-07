@@ -1,0 +1,8 @@
+study,year,state,n_treat,reoffend_treat,n_control,reoffend_control,followup_months
+Michigan DOC,1967,Michigan,28,12,30,5,6
+Vreeland,1981,Texas,39,14,40,11,6
+Orchowsky & Taylor,1981,Virginia,39,16,41,16,6
+Finckenauer,1982,New Jersey,46,19,35,4,6
+Lewis,1983,California,53,43,55,37,12
+GERPDC,1979,Illinois,94,16,67,8,5-15
+Yarborough,1979,Michigan,137,27,90,17,3
